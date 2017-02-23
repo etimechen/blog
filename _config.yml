@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 陈亮的博客
+name: 陈亮
+title: 我有两个世界
 email: i@chenliang.io
 description: > # this means to ignore newlines until "baseurl:"
   Linux,Mac OS,Java,JS,SQL,HTML,CSS,平面设计,吉他,音乐,健身,旅游,文玩
@@ -23,7 +24,7 @@ github_username:  etimechen
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: etimechen
 gems:
   - jekyll-feed
 exclude:
